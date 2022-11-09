@@ -18,7 +18,9 @@
 /* Styles text input area */
 
 #caeser-input {
-    
+    width: 60%;
+    margin: 10px 10px;
+    box-sizing: border-box;
 }
 
 /* Styles input buttons */ 
