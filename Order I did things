@@ -5,6 +5,8 @@ Added header with title
 Added footer with font awesome icons
 Add basic html structure
 Add inputs to body of HTML
+imported font
+styled title and subtitles
 
 HTML
 <style>

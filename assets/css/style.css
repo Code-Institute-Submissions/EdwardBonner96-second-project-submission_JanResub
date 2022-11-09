@@ -6,3 +6,9 @@
     font-family: 'Lato', sans-serif;
     color: #1d4289;
 }
+
+#title, .subtitle {
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
