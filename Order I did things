@@ -1,7 +1,10 @@
 Put basic file structure in place, tested css/js links work using browser and dev tools
 Add structure to readme
 Added meta data into the head
-
+Added header with title
+Added footer with font awesome icons
+Add basic html structure
+Add inputs to body of HTML
 
 HTML
 <style>
