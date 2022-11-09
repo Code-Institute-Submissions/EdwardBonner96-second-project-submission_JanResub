@@ -18,16 +18,35 @@
 /* Styles text input area */
 
 #caeser-input {
-    width: 80%;
+    width: 75%;
     margin-left: 10%;
     margin-right: 10%;
+    font-weight: bold;
+    padding: 5px;
+}
 
+/* Styles area where a key can be manually inserted*/
+
+#key-select {
+    font-weight: bold;
 }
 
 /* Styles input buttons */ 
-
 .caeser-button {
-    
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles key needed to unscramble message */
+#unscramble {
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Styles text transformation area */
+#key-button-area {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Styles information text */
