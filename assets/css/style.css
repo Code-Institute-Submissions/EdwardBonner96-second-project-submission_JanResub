@@ -1,0 +1,8 @@
+/* Imports Lato as default font, using sans-serif as a backup. Taken from googlefonts.*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+    color: #1d4289;
+}
