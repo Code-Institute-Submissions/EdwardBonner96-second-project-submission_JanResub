@@ -7,8 +7,41 @@
     color: #1d4289;
 }
 
+/* Styles titles and subtitles */
+
 #title, .subtitle {
     text-transform: uppercase;
     text-align: center;
     font-weight: bolder;
+}
+
+/* Styles text input area */
+
+#caeser-input {
+    
+}
+
+/* Styles input buttons */ 
+
+.caeser-button {
+    
+}
+
+/* Footer styling */ 
+
+footer {
+    text-align: center;
+    width: 100%;
+    padding: 1em 0;
+}
+
+footer > a {
+    text-decoration: none;
+    padding: 0 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+footer a:hover {
+    color: red;
 }
