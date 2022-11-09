@@ -1,2 +1,16 @@
 Put basic file structure in place, tested css/js links work using browser and dev tools
 Add structure to readme
+Added meta data into the head
+
+
+HTML
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+
+CSS
+font-family: 'Lato', sans-serif;
+
+Colours
+#FFFFFF (White)
+#1d4289 (Blueish colour, always use code not text)
