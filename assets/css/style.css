@@ -18,15 +18,23 @@
 /* Styles text input area */
 
 #caeser-input {
-    width: 60%;
-    margin: 10px 10px;
-    box-sizing: border-box;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 /* Styles input buttons */ 
 
 .caeser-button {
     
+}
+
+/* Styles information text */
+#information-text {
+    text-align: justify;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 /* Footer styling */ 

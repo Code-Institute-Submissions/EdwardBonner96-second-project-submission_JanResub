@@ -8,6 +8,9 @@ Add inputs to body of HTML
 imported font
 styled title and subtitles
 added text explanation of cipher
+updated <input type="text"> to <textarea> so it can show much more text entered
+styled said area
+corrected typos in explanation
 
 HTML
 <style>
