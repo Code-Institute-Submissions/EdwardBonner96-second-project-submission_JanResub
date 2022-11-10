@@ -12,15 +12,7 @@ updated <input type="text"> to <textarea> so it can show much more text entered
 styled said area
 corrected typos in explanation
 fixed bug - caeser-input area width and margins added to 100%, making website slightly to wide
-
-HTML
-<style>
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
-</style>
-
-CSS
-font-family: 'Lato', sans-serif;
-
-Colours
-#FFFFFF (White)
-#1d4289 (Blueish colour, always use code not text)
+styled text and buttons in text transformation section (could use aligning properly)
+made clear text button functional
+added calculations for random key and unscramble key
+added constants for alphabets, upper and lower case

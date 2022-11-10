@@ -1,5 +1,4 @@
 /* Imports Lato as default font, using sans-serif as a backup. Taken from googlefonts.*/
-
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
@@ -8,7 +7,6 @@
 }
 
 /* Styles titles and subtitles */
-
 #title, .subtitle {
     text-transform: uppercase;
     text-align: center;
@@ -16,7 +14,6 @@
 }
 
 /* Styles text input area */
-
 #caeser-input {
     width: 75%;
     margin-left: 10%;
@@ -25,13 +22,18 @@
     padding: 5px;
 }
 
-/* Styles area where a key can be manually inserted*/
+/* Styles text transformation area */
+#key-button-area {
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
+/* Styles area where a key can be manually inserted*/
 #key-select {
     font-weight: bold;
 }
 
-/* Styles input buttons */ 
+/* Styles buttons */ 
 .caeser-button {
     text-align: center;
     font-weight: bold;
@@ -43,12 +45,6 @@
     font-weight: bold;
 }
 
-/* Styles text transformation area */
-#key-button-area {
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
 /* Styles information text */
 #information-text {
     text-align: justify;
@@ -57,7 +53,6 @@
 }
 
 /* Footer styling */ 
-
 footer {
     text-align: center;
     width: 100%;

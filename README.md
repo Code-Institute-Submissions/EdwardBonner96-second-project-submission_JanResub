@@ -4,7 +4,9 @@
 
 ## Existing Features and User Stories
 
-### 
+### Footer section
+ - The footer contains links to social media, which are valuable to the user because it allows them to share their encryptions and the website on social media.
+ - The links open in a new tab for ease of use and to allow the user to return to the site easily.
 
 ## Future Features
  - 

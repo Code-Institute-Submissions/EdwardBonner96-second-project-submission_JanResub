@@ -12,21 +12,25 @@
     <title>The Caeser Cipher</title>
 </head>
 <body>
+    <!-- Title -->
     <header>
         <h1 id="title">The Caeser Cipher</h1>
     </header>
+    <!-- Text input area  -->
     <div id="caeser-text">
-        <textarea id="caeser-input" name="caeser-input" rows="10" cols="50">Enter Text here!</textarea>
-    </div>        
+        <textarea id="caeser-input" name="caeser-input" rows="10" cols="50">Enter Text to encode here!</textarea>
+    </div>
+    <!-- Text transformation buttons -->        
     <div id="key-button-area">
         <h2 class="subtitle">Text Transformations</h2>
-        <label for="key-select"><strong>Enter Key Value (between 0 and 26):</strong></label>
-        <input type="number" id="key-select" name="key-select" min="1" max="5">
+        <label for="key-select"><strong>Enter Key Value (Integer between 0 and 26):</strong></label>
+        <input type="number" id="key-select" name="key-select" min="0" max="26">
         <input type="submit" class="caeser-button">
         <button type="button" onclick="" class="caeser-button" id="random-key">Random Key (1-25)</button>
         <button type="button" onclick="clearText()" class="caeser-button" id="clear-text">Clear Text</button>
         <p id="unscramble">Key needed to unscramble message: TEMP</p>
     </div>
+    <!-- Div containing information about the Caeser cipher -->
     <div id="information-text">
         <h2 class="subtitle">How the Caeser cipher works</h2>
         <p>
@@ -45,7 +49,7 @@
             For example if a letter is by itself and capitalised, it is most likely 'A' or 'I'. Once you know one of the letters,
             you can reverse the process above and figure out the key, breaking the entire code. If the message is too long, it 
             could also be analysed statistically. The most common letter in the English alphabet is 'E' and if your encoded
-            message uses a lot of the same letters then the odds are very good one of those letters maps to E.
+            message uses a lot of the same letters then the odds are very good one of those letters maps to 'E'.
         </p>
     </div>
     <!-- footer with social media icons and links, opens in a new tab -->
