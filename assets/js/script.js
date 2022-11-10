@@ -1,41 +1,29 @@
-const lowerCaseAlphabet = "abcdefghijklmnopqrstuvwxyz";
-const upperCaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+const lowerCaseAlphabet = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
+let keyAddedLowerCase = "";
+const upperCaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ";
+let keyAddedUpperCase = "";
 
 function caeserEncode(inputText, keyEncode) {
-  let inputLength = inputText.length;
-  let encodedText = '';
-  //x is the current character index in the string
-  for(let x = 0; x <= inputLength; x++) {
-    if(inputText[i].toUpperCase() !== inputText[i].toLowerCase()) {
-      if(inputText[i] === inputText[i].toUpperCase) {
-        let transformedLetter = //index value from upperCaseAlphabet;
-      } else {
-        transformedLetter = //index value from lowerCaseAlphabet;
-      }
-      transformedLetter = (transformedLetter + keyEncode) % 26;
-      //indexvaluefrom correct case alphabet
-      
-
-      let transformedText = ;
-      encodedText = 'encodedText' + 'transformedLetter[i]';
+  for (let i = 0; i < 26; i++) {
+    let shiftedLowerCase = (keyEncode + i);
+    keyAddedLowerCase += lowerCaseAlphabet[shiftedLowerCase];
+    let shiftedUpperCase = (keyEncode + i);
+    keyAddedUpperCase += upperCaseAlphabet[shiftedUpperCase];
+  }
+  let encodedText = "";
+  for (let i = 0; i <= inputLength; i++) {
+    if (inputText[i].toUpperCase() !== inputText[i].toLowerCase()) {
+      let transformedLetter = lowerCaseAlphabet.indexOf(inputText[i]);
+      encodedText += keyAddedLowerCase[transformedLetter];
     } else {
-      encodedText = 'encodedText' + 'inputText[i]';
+      let transformedLetter = upperCaseAlphabet.indexOf(inputText[i]);
+      encodedText += keyAddedUpperCase[transformedLetter];
     }
   }
+  console.log(encodedText)
 }
 
-//test for upper/lower case
-      //using indexing, grab letter value
-      //add key to letter value
-      //modulo 26
-      //get new value
-      //add new letter
 
-//TESTING BELOW DELETE
-let test = "abcdefgh";
-console.log(test[3]);
-let strLength = test.length;
-console.log(strLength);
 
 let randomKey = Math.floor((25 * Math.random() + 1));
 console.log(randomKey);

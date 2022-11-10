@@ -16,3 +16,5 @@ styled text and buttons in text transformation section (could use aligning prope
 made clear text button functional
 added calculations for random key and unscramble key
 added constants for alphabets, upper and lower case
+built skeleton/plan of encoding cipher
+fixed mixing variables in caeser function
