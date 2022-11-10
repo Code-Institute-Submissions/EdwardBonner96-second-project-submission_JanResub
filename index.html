@@ -17,16 +17,16 @@
         <h1 id="title">The Caeser Cipher</h1>
     </header>
     <!-- Text input area  -->
-    <div id="caeser-text">
-        <textarea id="caeser-input" name="caeser-input" rows="10" cols="50">Enter Text to encode here!</textarea>
-    </div>
+    <form id="caeser-text" action="" method="POST">
+            <textarea id="caeser-input" name="caeser-input" rows="10" cols="50">Enter Text to encode here!</textarea>
+    </form>
     <!-- Text transformation buttons -->        
     <div id="key-button-area">
         <h2 class="subtitle">Text Transformations</h2>
         <label for="key-select"><strong>Enter Key Value (Integer between 0 and 26):</strong></label>
         <input type="number" id="key-select" name="key-select" min="0" max="26">
-        <input type="submit" class="caeser-button" id="manual-key-select">
-        <button type="button" onclick="" class="caeser-button" id="random-key">Random Key (1-25)</button>
+        <input type="submit" onclick="(caeserEncode)" class="caeser-button" id="manual-key-select">
+        <button type="button" class="caeser-button" id="random-key">Random Key (1-25)</button>
         <button type="button" onclick="clearText()" class="caeser-button" id="clear-text">Clear Text</button>
         <p id="unscramble">Key needed to unscramble message: TEMP</p>
     </div>
