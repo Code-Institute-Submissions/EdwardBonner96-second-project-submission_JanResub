@@ -18,8 +18,13 @@ function caeserEncode(inputText, keyEncode) {
   for (let i = 0; i < inputLength; i++) {
     // Tests if inputs are letters by changing cases
     if (inputText[i].toUpperCase() !== inputText[i].toLowerCase()) {
-      let transformedLetter = lowerCaseAlphabet.indexOf(inputText[i]);
-      encodedText += keyAddedLowerCase[transformedLetter];
+      if (inputText[i] == inputText[i].toUpperCase()) {
+        let transformedLetter = upperCaseAlphabet.indexOf(inputText[i]);
+        encodedText += keyAddedUpperCase[transformedLetter];
+      } else {
+        let transformedLetter = lowerCaseAlphabet.indexOf(inputText[i]);
+        encodedText += keyAddedLowerCase[transformedLetter];
+      }
     } else {
       let nonLetter = inputText[i];
       encodedText += nonLetter;
