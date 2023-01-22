@@ -6,17 +6,18 @@ let keyAddedUpperCase = "";
 
 // Caeser Cipher encoding
 function caeserEncode(inputText, keyEncode) {
-  // Shifts alphabets with key
+  // Shifts alphabets by key input
   for (let i = 0; i < 26; i++) {
     let shiftedLowerCase = (keyEncode + i);
     keyAddedLowerCase += lowerCaseAlphabet[shiftedLowerCase];
     let shiftedUpperCase = (keyEncode + i);
     keyAddedUpperCase += upperCaseAlphabet[shiftedUpperCase];
   }
+  // Encodes input message using shifted alphabet
   let encodedText = "";
   let inputLength = inputText.length;
   for (let i = 0; i < inputLength; i++) {
-    // Tests if inputs are letters by changing cases
+    // Tests if each input character is a letter, adds shift to letters
     if (inputText[i].toUpperCase() !== inputText[i].toLowerCase()) {
       if (inputText[i] == inputText[i].toUpperCase()) {
         let transformedLetter = upperCaseAlphabet.indexOf(inputText[i]);

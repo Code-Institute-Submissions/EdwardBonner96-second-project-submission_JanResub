@@ -22,3 +22,13 @@ rewrote function to avoid excessive looping
 fixed bug in html with submit id = "(caeserEncode)", now "caeserEncode()"
 fixed bug in js  for (let i = 0; i <= inputLength; i++) { counts i one higher than needed, changed to i < inputLength>
 bugfixed transforming non-letter inputs into letters, creating undefined output in place of non-letter input
+add ability to handle upper case letters as input
+Add css responsiveness
+
+Stuff to do
+    Readme (include deployment steps)
+    Comment everything (check well)
+    Media query in css
+    Link submit button to function, get correct output
+    As above for random key
+    Make both show the key needed to unscramble

@@ -69,3 +69,12 @@ footer > a {
 footer a:hover {
     color: red;
 }
+
+/* For small screens size 800px and below */
+@media screen and (max-width: 800px) {
+    #caeser-input {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
