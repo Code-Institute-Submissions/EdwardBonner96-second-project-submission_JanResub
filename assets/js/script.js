@@ -15,17 +15,17 @@ function caeserEncode(inputText, keyEncode) {
   }
   let encodedText = "";
   let inputLength = inputText.length;
-  for (let i = 0; i <= inputLength; i++) {
+  for (let i = 0; i < inputLength; i++) {
     // Tests if inputs are letters by changing cases
     if (inputText[i].toUpperCase() !== inputText[i].toLowerCase()) {
       let transformedLetter = lowerCaseAlphabet.indexOf(inputText[i]);
       encodedText += keyAddedLowerCase[transformedLetter];
     } else {
-      let transformedLetter = upperCaseAlphabet.indexOf(inputText[i]);
-      encodedText += keyAddedUpperCase[transformedLetter];
+      let nonLetter = inputText[i];
+      encodedText += nonLetter;
     }
   }
-  return [encodedText];
+  return encodedText;
 }
 
 let manualKey = document.getElementById("manual-key-select");
