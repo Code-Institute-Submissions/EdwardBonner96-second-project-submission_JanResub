@@ -1,7 +1,7 @@
 # Caeser Cipher
 
 ## Purpose of the Project
-
+ - The Caeser Cipher website is a site that hopes to encourage a user's interest in encoding messages and cryptography with a simple caeser cipher, allowing users to create, encode and decode messages. The site will be useful to beginners interested in cryptography.   
 ## Existing Features and User Stories
 
 ### Footer section
@@ -34,7 +34,7 @@ Having a rough plan of the website while building it was very useful in planning
  - In the github repository, navigate to the settings tab
  - From the source menu select the master or root branch
  - Once selected the page will be refreshed and the site deployed
- - The live link can be found here: 
+ - The live link can be found here: https://github.com/EdwardBonner96/second-project-submission
 
 ## Credits
 ### Content
