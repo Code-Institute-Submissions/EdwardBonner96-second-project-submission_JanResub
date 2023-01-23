@@ -1,11 +1,11 @@
 // Constants store two alphabets each so modulo calculation is unneeded
 const lowerCaseAlphabet = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz";
-let keyAddedLowerCase = "";
 const upperCaseAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let keyAddedUpperCase = "";
 
 // Caeser Cipher encoding
 function caeserEncode(inputText, keyEncode) {
+  let keyAddedLowerCase = "";
+  let keyAddedUpperCase = "";
   // Shifts alphabets by key input
   for (let i = 0; i < 26; i++) {
     let shiftedLowerCase = (keyEncode + i);
@@ -34,20 +34,18 @@ function caeserEncode(inputText, keyEncode) {
   return encodedText;
 }
 
-let manualKey = document.getElementById("manual-key-select");
-manualKey.addEventListener('click', caeserEncode);
+function encodeMessage() {
+  let inputText = String(document.getElementById("caeser-input").value);
+  let keyEncode = parseInt(document.getElementById("key-select").value);
+  let finalMessage = document.getElementById("caeser-input");
+  finalMessage.value = caeserEncode(inputText, keyEncode);
+}
 
 let randomKey = Math.floor((25 * Math.random() + 1));
 console.log(randomKey);
 
 let unscrambleKey = 26 - randomKey;
 console.log(unscrambleKey);
-
-function caeserEncode(event) { 
-  tester.submit();
-}
-let testerForm = document.getElementById('caeser-text');
-caeser-text.addEventListener('submit', caeserEncode);
 
 // Function clears text in input box
 function clearText() {

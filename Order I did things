@@ -26,9 +26,8 @@ add ability to handle upper case letters as input
 Add css responsiveness
 
 Stuff to do
-    Readme (include deployment steps)
-    Comment everything (check well)
-    Media query in css
+    Readme (include deployment steps and validators for all 3 languages)
+    Comment everything in js
     Link submit button to function, get correct output
     As above for random key
     Make both show the key needed to unscramble
