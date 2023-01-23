@@ -46,7 +46,22 @@
 Having a rough plan of the website while building it was very useful in planning out the html and css parts of the website.
 
 ## Testing
- - 
+ - As above, the website has passed many accessability and contrast tests.
+ - Using the Chrome Mobile Simulator tool the site was tested on different screen sizes. It is quite responsive with no errors due to resizing.
+ ![Chrome Mobile tool](assets/images/Caeser-cipher-responsiveness-test.png)
+ - The site has been tested using the Internet Edge and Firebox browsers and performs the same there as google chrome.
+ - temp - html validator w3c
+ - temp - css validator jigsaw
+ - temp - js validator jshint
+
+ ### Internal Link Testing
+ - The text box is selectable and takes inputs correctly
+ - The key value can be entered and has been tested with the correct results for all valid integer inputs.
+ - For submitting invalid inputs, an error alert pops-up, informing and directing the user and the text inside is not transformed.
+ - Negative integers, letters, special symbols and integers above 26 have been tested and all show the error message.
+ - The random key generates numbers between 1 and 25 correctly and displays the correct text results. This has been tested externally by using a for loop to generate all the valid numbers to check the function and by checking the random number generation works using a brute force approach in a for loop.
+ - The clear text button clears the text with no issues
+ - The key needed to unscramble the message shows the correct value for all valid key inputs (0 - 26)
 
  ### Bug Testing
  - 
