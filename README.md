@@ -39,6 +39,5 @@ Having a rough plan of the website while building it was very useful in planning
 
 ## Credits
 ### Content
- - 
-### Media 
- - 
+ - The icons in the footer were taken from Font Awesome
+ - The Lato Font is from Google fonts. 
