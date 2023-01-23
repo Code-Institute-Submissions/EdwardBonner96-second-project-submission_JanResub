@@ -27,6 +27,7 @@ Add css responsiveness
 Linked submit button and key input to encoding function 
 Show key to unscramble
 Added random key button
+added validation to key selection
 
 Stuff to do
     Readme (include deployment steps/links and validators for all 3 languages)

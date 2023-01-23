@@ -37,6 +37,10 @@ function caeserEncode(inputText, keyEncode) {
 function encodeMessage() {
   let inputText = String(document.getElementById("caeser-input").value);
   let keyEncode = parseInt(document.getElementById("key-select").value);
+  if (isNaN(keyEncode) || keyEncode < 0 || keyEncode > 26) {
+    alert("Please enter an integer between 0 and 26");
+    keyEncode = 0;
+  }
   let finalMessage = document.getElementById("caeser-input");
   finalMessage.value = caeserEncode(inputText, keyEncode);
   document.getElementById("unscramble").innerHTML = "Key needed to unscramble message: " + (26 - keyEncode); 
