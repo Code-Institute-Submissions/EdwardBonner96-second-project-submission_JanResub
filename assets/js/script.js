@@ -34,23 +34,28 @@ function caeserEncode(inputText, keyEncode) {
   return encodedText;
 }
 
+// Function encodes user text using their selected key
 function encodeMessage() {
   let inputText = String(document.getElementById("caeser-input").value);
   let keyEncode = parseInt(document.getElementById("key-select").value);
+  // Validates user input, leaves their text unchanged if invalid
   if (isNaN(keyEncode) || keyEncode < 0 || keyEncode > 26) {
     alert("Please enter an integer between 0 and 26");
     keyEncode = 0;
   }
   let finalMessage = document.getElementById("caeser-input");
   finalMessage.value = caeserEncode(inputText, keyEncode);
+  // Changes HTML text to show decryption key
   document.getElementById("unscramble").innerHTML = "Key needed to unscramble message: " + (26 - keyEncode); 
 }
 
+// Function generates a random key between 1 and 25 and encodes user input
 function randomEncode() {
   let inputText = String(document.getElementById("caeser-input").value);
   let randomKey = Math.floor((25 * Math.random() + 1));
   let finalMessage = document.getElementById("caeser-input");
   finalMessage.value = caeserEncode(inputText, randomKey);
+  // Changes HTML text to show random encryption and decryption key
   document.getElementById("unscramble").innerHTML = "Random key: " + randomKey + " " + "Key to unscramble: " + (26 - randomKey); 
 }
 
