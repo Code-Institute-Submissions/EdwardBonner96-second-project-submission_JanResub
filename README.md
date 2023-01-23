@@ -9,7 +9,8 @@
  - The links open in a new tab for ease of use and to allow the user to return to the site easily.
 
 ## Future Features
- - 
+ - In the future the site can be expanded to show an input and output window allowing the user to see their message before and after it is encoded.
+ - A hero image, something to draw the users attention to the project and make the website more memorable.
 
 ## Typography and Color Scheme
  - 
