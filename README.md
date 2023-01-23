@@ -50,9 +50,13 @@ Having a rough plan of the website while building it was very useful in planning
  - Using the Chrome Mobile Simulator tool the site was tested on different screen sizes. It is quite responsive with no errors due to resizing.
  ![Chrome Mobile tool](assets/images/Caeser-cipher-responsiveness-test.png)
  - The site has been tested using the Internet Edge and Firebox browsers and performs the same there as google chrome.
- - temp - html validator w3c
- - temp - css validator jigsaw
- - temp - js validator jshint
+ ### Validator Testing
+ - The HTML validator used was W3C, the code has no issues.
+ ![W3C HTML Validation](assets/images/caeser-cipher-html-validation.png)
+ - The CSS validator used was JIGSAW, the code has no issues. 
+ ![JIGSAW CSS Validation](assets/images/caeser-cipher-css-validation.png)
+ - The JS validator used was JSHINT, the code has no significant issues.
+ ![JSHINT JS Validation](assets/images/caeser-cipher-js-validation.png)
 
  ### Internal Link Testing
  - The text box is selectable and takes inputs correctly
