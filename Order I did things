@@ -24,10 +24,10 @@ fixed bug in js  for (let i = 0; i <= inputLength; i++) { counts i one higher th
 bugfixed transforming non-letter inputs into letters, creating undefined output in place of non-letter input
 add ability to handle upper case letters as input
 Add css responsiveness
+Linked submit button and key input to encoding function 
+Show key to unscramble
 
 Stuff to do
-    Readme (include deployment steps and validators for all 3 languages)
+    Readme (include deployment steps/links and validators for all 3 languages)
     Comment everything in js
-    Link submit button to function, get correct output
     As above for random key
-    Make both show the key needed to unscramble

@@ -39,12 +39,13 @@ function encodeMessage() {
   let keyEncode = parseInt(document.getElementById("key-select").value);
   let finalMessage = document.getElementById("caeser-input");
   finalMessage.value = caeserEncode(inputText, keyEncode);
+  document.getElementById("unscramble").innerHTML = "Key needed to unscramble message:" + (26 - keyEncode); 
 }
 
 let randomKey = Math.floor((25 * Math.random() + 1));
 console.log(randomKey);
 
-let unscrambleKey = 26 - randomKey;
+let unscrambleKey = 26 - keyEncode;
 console.log(unscrambleKey);
 
 // Function clears text in input box
