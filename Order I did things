@@ -26,8 +26,8 @@ add ability to handle upper case letters as input
 Add css responsiveness
 Linked submit button and key input to encoding function 
 Show key to unscramble
+Added random key button
 
 Stuff to do
     Readme (include deployment steps/links and validators for all 3 languages)
     Comment everything in js
-    As above for random key
