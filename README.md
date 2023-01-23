@@ -2,6 +2,7 @@
 
 ## Purpose of the Project
  - The Caeser Cipher website is a site that hopes to encourage a user's interest in encoding messages and cryptography with a simple caeser cipher, allowing users to create, encode and decode messages. The site will be useful to beginners interested in cryptography.   
+
 ## Existing Features and User Stories
  ![Site overview](assets/images/caeser-cipher-website.png)
 
@@ -32,7 +33,12 @@
  - A hero image, something to draw the users attention to the project and make the website more memorable.
 
 ## Typography and Color Scheme
- - 
+ - The priority when choosing the typography and colour scheme was accessability, the site is highly accessible as shown by the following below.
+ - The Lato font, with a sans-serif backup, were chosen for their high readability and accessability.
+ - The contrasting colors #FFFFFF (background) and #1D4289 (font & borders) used on the website have a high contrast and easily pass the WCAG tests as per WebAIM: Contrast Checker
+ ![Web Aim contrast](assets/images/caeser-cipher-contrast.png)
+ - Finally the developer tool Lighthouse was used to test the website
+ ![Lighthouse test](assets/images/caeser-cipher-lighthouse.png) 
 
 ## Wireframes
  - A wireframe of the project was planned using Balsamiq.
