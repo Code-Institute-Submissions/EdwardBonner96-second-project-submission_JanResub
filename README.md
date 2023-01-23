@@ -64,7 +64,13 @@ Having a rough plan of the website while building it was very useful in planning
  - The key needed to unscramble the message shows the correct value for all valid key inputs (0 - 26)
 
  ### Bug Testing
- - 
+ - Bugs were primarily detected using Python Tutor (https://pythontutor.com/). It has a step-by-step process to narrow down the point where the code creates an error, such as an incorrect value.
+ - Fixed Bug - caeser-input area width and margins added to 100%, making website slightly too wide since I did not account for all margins, padding and borders
+ - Fixed Bug - mixing variables in caeser function
+ - Fixed Bug - in html with submit id = "(caeserEncode)", now "caeserEncode()", this prevented js linking to html.
+ - Fixed Bug - indexing error in js for (let i = 0; i <= inputLength; i++) {. This bug counts i one higher than needed, changed to i < inputLength> so that the function correctly iterates over the message length (and not one more than that).
+ - Fixed Bug - transforming non-letter inputs into letters, creating undefined output in place of non-letter input. Added check to code to determine input type and avoid transforming non-letters.
+ ### There are no known remaining bugs
 
 ## Deployment
 ### Gitpod
